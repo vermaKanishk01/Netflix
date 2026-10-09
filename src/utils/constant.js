@@ -7,4 +7,8 @@ export const API_OPTIONS = {
   headers: {accept: 'application/json', Authorization: 'Bearer TMDB-API-ACCESS-TOKEN'}
 };
 
-export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/"
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/";
+
+export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/4263c437-c678-4724-ad80-e3ba0dc8761e/web/IN-en-20260921-TRIFECTA-perspective_95810136-2c4a-4ab4-a323-50418521e261_large.jpg";
+
+export const SUPPORTED_LANGUAGES = [{identifier: "en", name: "English"}, {identifier: "hindi", name: "Hindi"}, {identifier: "spanish", name: "Spanish"}];
